@@ -410,7 +410,8 @@ html, body {
 
 /* Card Actions */
 .card-actions {
-  display: flex; align-items: center; gap: 20px;
+  display: flex; align-items: center; gap: 24px;
+  width: 100%;
 }
 .action-btn {
   display: flex; align-items: center; justify-content: center;
@@ -421,7 +422,7 @@ html, body {
 .action-btn:active { transform: scale(0.9) !important; }
 
 .skip-btn, .fav-action-btn {
-  width: 54px; height: 54px; border-radius: 50%;
+  width: 58px; height: 58px; border-radius: 50%;
   background: rgba(255,255,255,0.08);
   border: 1px solid var(--border-color);
   color: var(--text-secondary);
@@ -432,10 +433,11 @@ html, body {
 .fav-action-btn.saved svg { fill: #e879b0; }
 
 .affirm-btn {
-  flex: 1; height: 54px; border-radius: 27px;
+  flex: 1; height: 58px; border-radius: 29px;
   background: linear-gradient(135deg, #f5c842, #e879b0);
-  color: #0a0a14; font-size: 15px; font-weight: 700;
-  gap: 8px; box-shadow: 0 8px 28px rgba(245,200,66,0.35);
+  color: #0a0a14; font-size: 16px; font-weight: 700;
+  gap: 10px; box-shadow: 0 8px 28px rgba(245,200,66,0.35);
+  letter-spacing: 0.3px;
 }
 .affirm-btn:hover { transform: scale(1.03); box-shadow: 0 12px 36px rgba(245,200,66,0.45); }
 .affirm-btn-text { font-family: var(--font-body); }
